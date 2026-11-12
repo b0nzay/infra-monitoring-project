@@ -1,0 +1,20 @@
+# Логи
+*.log
+logs/
+
+# Временные файлы
+*.tmp
+*.swp
+*~
+.DS_Store
+
+# Артефакты сборки
+build/
+dist/
+*.tar.gz
+*.zip
+
+# Окружение
+.env
+.vscode/
+.idea/
