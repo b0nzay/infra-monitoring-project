@@ -1,0 +1,8 @@
+# Скрипты и конфиги всегда с Unix-переводами строк (LF),
+# иначе bash на Linux/в CI падает с ошибкой "\r: command not found"
+*.sh   text eol=lf
+*.yml  text eol=lf
+*.conf text eol=lf
+*.md   text eol=lf
+*.pcapng binary
+*.docx   binary
